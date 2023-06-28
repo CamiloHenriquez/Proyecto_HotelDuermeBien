@@ -4,6 +4,8 @@ from reserva import Reserva
 from tipohabitacion import TipoHabitacion
 from tipousuario import TipoUsuario
 from huesped import Huesped
+from DAO import DAO
+
 
 
 def validarNumero(numero):
