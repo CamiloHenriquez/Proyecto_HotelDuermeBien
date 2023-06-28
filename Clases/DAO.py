@@ -1,5 +1,6 @@
 import mysql.connector
 import credenciales
+from tipousuario import TipoUsuario
 
 class DAO():
     def __init__(self):
@@ -15,3 +16,4 @@ class DAO():
     def fin(self):
         self.__conexion.commit()
         self.__conexion.close()
+
